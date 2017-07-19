@@ -1,0 +1,61 @@
+body  {
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+}
+
+.col-md-10{
+    background-color: #FFD700;
+    height: 600px;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+   font-size: 30px;
+}
+
+header{
+	text-align: center;
+	front-family:'Metal Mania', cursive;
+	front-size: 60px;
+	margin-top: 10px
+}
+
+.timeWrapper{
+  margin-top: -250px;
+  padding-right: 1px;
+  float:right;
+  font-size: 1em;
+}
+
+.scoreWrapper{
+  padding-right: : 1px;
+  float: right;
+  margin-top: -200px;
+  font-size: 1em;
+}
+
+#questionLeftWrapper{
+  padding-right: : 1px;
+  float: right;
+  margin-top: -150px;
+  font-size: 1em;
+
+}
+#card{
+  margin-top: 20px;
+}
+
+
+#changeBtn{
+text-align: center;
+margin-bottom: 20px;
+}
+#startGameBtn{
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+
+}
+.footerContent{
+  text-align: center;
+}
+

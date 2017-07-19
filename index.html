@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Trivia Game!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+  
+<body>
+	<div class="container">
+
+		<div class="row">
+        <div class="col-md-10">
+		<header>Totally Trivial Triva!</header>
+			<img src="assets/images/movies.jpg">
+        <div class="questionWraps"> 
+  		<div id="card" class="card alignment">
+  		<nav>
+    		<div class="nav-wrap">
+      		<p class="scoreWrapper">Score: <span id="playScore">0</span>/100</p>
+      		<p class="timeWrapper">Time Left: <span id="playTime">60</span></p>
+      		<p id="testQuestion"class="card-title"><span id="questionNumber">0</span>/10</p>
+    		</div>
+  		</nav>
+              <div class="containerQuestion">
+                <h5 id="question"></h5>
+                <div id = "instructions">
+                  <h3>How to play</h3>
+                  <p>Answer All 10 questions correctly before the timer runs out or else you lose the game!</p>
+                </div>
+         		</div>
+              <div id="answerBtn" class="card-action">
+              	<a id="0" class="btn effect" href="#"></a>
+                <a id="1" class="btn effect" href="#"></a>
+                <a id="2" class="btn effect" href="#"></a>
+                <a id="3" class="btn effect" href="#"></a>
+              </div>
+              <div id="nextBtnContainer">
+                <a id="startGameBtn" class="btn btn-large waves-effect" href="#">Start Game</a>
+                <a id="changeBtn" class="btn btn-large green waves-effect" href="#">Next</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Copyright Livina Chima
+                <a class="grey-text text-lighten-4 right" href="https://github.com/Livinachima/triviaGame" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" id="gitIcon"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js">
+
+
+</script>
+</body>
+</html>
